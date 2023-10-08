@@ -1,0 +1,13 @@
+<div class="list">
+    {{#each albumsArray}}
+    <div class="card">
+        <h3>{{this.name}}</h3>
+        {{#if this.images}}
+        <img src={{this.images.0.url}} alt="">
+        {{else}}
+        <img src="https://user-images.githubusercontent.com/25275745/82283218-ba9ec200-9963-11ea-9fc8-8408b57bef12.png" alt="">
+        {{/if}}
+        <a href="/tracks/{{this.id}}">View tracks</a>
+    </div>
+    {{/each}}
+</div>

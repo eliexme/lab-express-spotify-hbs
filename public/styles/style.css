@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.homepage{
+background-image: url('../images/spotify-background.jpeg');
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img{
+    max-width: 10rem;
+}
+
+.card{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
